@@ -14,7 +14,8 @@ body {
   font-weight: 300;
   letter-spacing: 1px;
   font-style: normal;
-  color: #fff;
+  color: #282828;
+  background-color: #f9f9f9;
 }
 
 a {
@@ -29,6 +30,11 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: auster, sans-serif;
   font-style: normal;
+  margin-top: 1%;
+}
+
+h3 {
+  font-size: normal;
 }
 
 /*--------------------------------------------------------------
@@ -1450,6 +1456,7 @@ section {
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
+  margin-bottom: 10%;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot {
@@ -1462,7 +1469,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #009961 !important;
+  background-color: #0348EE !important;
 }
 
 .portfolio-details .portfolio-info {
